@@ -20,10 +20,10 @@ function App() {
       <header className="App-header">
         {/* to use js here '{}' is required */}
         
-        {name},
-        {num},
-        {arr},
-        {obj.gender},
+        <p>{name}</p>
+        <p>{num}</p>
+        <p>{arr}</p>
+        <p>{obj.gender}</p>
         {arr.map((value, index) => {
           return value+1
         })
